@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c5c5c5;
+}
+
+h5{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Sedgwick Ave', serif;
+  color: #c55555;
+  font-size: 15px;
+}
+
+img{
+  width: 150px;
+  height:150px;
+}
+
+#container{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: white;
+  background-color: #c5c5c5;
+}
+
+.searchArea{
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.nowPlaying{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c55555;
+  margin: 0;
+  font-size: 50px;
+  text-shadow: 3px 3px #cbcbcb;
+}
+
+.searchResults{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-results{
+  max-width: 20%;
+  margin-top: 15px;
+  background-color: #e6e6e6;
+  box-shadow: 10px 10px 5px #888888;
+
+}
